@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar hideSidebar">
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -23,23 +23,31 @@
             </nav>
         </div>
         <div class="main">
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="hello">Hi I am </div>
-                    <div class="name">Dinesh Yagnik</div>
-                    <div class="about">Developer, Programmer, Coder</div>
-                    <div class="aboutmore">I am a software engineer, with a Bachelor’s Degree in Computer Application.Software engineering is my passion, pushing the limits of technology to make people’s life (and mine) easier.</div>
-                    <div class="buttons">
-                        <button>Download CV</button>
-                        <button>Contact Me</button>
-                    </div>
-                </div>
-                <div class="devPic">
-                    <img src="/images/image.png" alt="Dinesh">
+            <div class="hamburger">
+                <img class="ham" src="images/menuIcon.png" alt="hamburgerIcon" width="23">
+                <img class="cross" src="images/crossIcon.png" alt="crossIcon" width="23">
+            </div>
+            <div class="intro">
+                <h2>About me</h2>
+                <p>Software Developer Intern at @UXDLAB Software Pvt Ltd. I work on the Website Development Team and
+                    love
+                    building great products to serve millions of users worldwide.</p>
+                <h2>My Skills</h2>
+                <div class="skillContainer">
+                    <div class="skillItem">HTML : <div class="skill hundred"></div></div>
+                    <div class="skillItem">CSS : <div class="skill hundred"></div></div>
+                    <div class="skillItem">JavaScript : <div class="skill s5"></div></div>
+                    <div class="skillItem">jQuery : <div class="skill hundred"></div></div>
+                    <div class="skillItem">Bootstrap : <div class="skill hundred"></div></div>
+                    <div class="skillItem">ReactJs : <div class="skill s5"></div></div>
+                    <div class="skillItem">Material Ui : <div class="skill s5"></div></div>
+                    <div class="skillItem">React-Bootstrap : <div class="skill s5"></div></div>
+                    <div class="skillItem">Java : <div class="skill t5"></div></div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
